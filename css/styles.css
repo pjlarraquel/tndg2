@@ -1,0 +1,293 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Headings */
+h1,h2,h3,h4,h5{
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    width: 80%;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #ffff;
+}
+
+h3 {
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+p{
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #8f8f8f;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+a:hover {
+    color: #80558C;
+}
+
+
+/** TITLE & NAVBAR **/
+
+.container-fluid-nav{
+    padding: 3% 15% 10%;
+    overflow: hidden;
+}
+#title{
+    background-color: #80558C;
+    color: #fff;
+}
+.navbar{
+    padding-top: 25px;
+
+}
+.navbar-brand{
+    font-family: "ubuntu", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 1.1rem;
+    margin-left: 10px;  
+}
+
+
+
+
+.row-home-page{
+    padding: 50% 0;
+}
+.home-page{
+    margin-top: 40px;
+    padding-top: 20px;
+}
+.home-page-h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900px;
+    font-size: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 80px;
+}
+
+.home-page-img{
+    max-width: 60%;
+    margin-left: 70px;
+    transform: rotate(25deg);
+    position: absolute;  
+}
+.download-button{
+    margin: 5% 3% 0% 0%;
+    border-image-outset: 50px;
+}
+
+
+/* FEATURES */
+
+#features{
+    padding: 8% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 6%;
+    
+}
+
+.img-features{
+    font-size: 5.5rem;
+    margin-bottom: 45px;
+    
+    color: #C8B6E2
+}
+
+.img-features:hover{
+    color: #80558C;
+}
+
+/* TESTIMONIALS*/
+
+#testimonials{
+    background-color: #80558C;
+    text-align: center;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+    
+}
+
+.testimony-text{
+    margin-bottom: 2rem;
+    width: auto;
+    text-align: center;
+    font-size: 45px;
+}
+
+.testimonial-img{
+    width: 20%;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+
+/* PRESS */
+
+#press{
+    background-color: #80558C;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 11%;
+    margin: 20px 60px 20px;
+}
+
+/* PRICING */
+
+#pricing{
+    padding: 80px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.h2-pricing{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+.h3-pricing{
+    padding-top: 10px;
+}
+.card{
+    margin: 0 20px;
+}
+.card-header{
+    text-align: center;
+}
+.card-body{
+    text-align: center;
+}
+.pricing-btn:hover{
+    background-color: #80558C;
+}
+
+/* CTA */
+
+#cta {
+    background-color: #80558C;
+    padding-bottom: 80px;
+}
+
+.cta-h3{
+    color: #fff;
+    font-size: 3rem;
+    max-width: 45%;
+    text-align: center;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.ios-button{
+    margin-left: 40%;
+}
+
+
+
+/* FOOTER */
+
+#footer{
+    text-align: center;
+}
+
+.footer-icon{
+    font-size: 25px;
+    margin: 40px 10px 20px;
+}
+
+
+/* MEDIA QUERY (PHONE & TABLET)  */
+
+@media (max-width: 580px) {
+    
+    #title {
+        text-align: center;
+    }
+
+    #cta {
+        padding-bottom: 20px;
+    }
+
+    .navbar-brand{
+        font-size: 40px;
+        width: auto;
+    }
+
+    .home-page-img {
+            max-width: 70%;
+            position: static;
+            transform: rotate(0deg);
+            margin-top: 50px;
+            text-align: center;
+            margin-right: 50px;
+        }
+
+        .home-page-h1 {
+            font-family: 'Montserrat-Black', sans-serif;
+            font-weight: 600px;
+            font-size: 3rem;
+            margin-top: 2rem;
+            text-align: center;
+            position: relative;
+            left: 10%;
+        }
+        .download-button {
+            margin: 7% 2% 0% 0%;
+            border-image-outset: 10px;
+            max-width: 50%;
+        }
+
+        .home-page-h1{
+            width: 100%;
+            margin-right: 100px;
+            position: static;
+        }
+        .press-img{
+            width: 40%;
+        }
+        .cta-h3{
+            margin: auto;
+            max-width: 90%;
+            margin-bottom: 90px;
+            margin-top: 30px;
+            padding-top: 80px;
+        }
+        .button-footer {
+            margin: auto;
+            border-image-outset: 50px;
+            margin-bottom: 50px;
+            margin-top: 30px;
+            font-size: 18px;
+            display: block;
+        }
+        .ios-button{
+            
+            margin: auto;
+        }
+}
